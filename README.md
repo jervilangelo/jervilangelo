@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jervil%20Angelo%20De%20Leon&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Cloud%20%26%20Infrastructure%20Engineering%20%7C%20AWS%20%7C%20Automation&descSize=18&descAlignY=58" alt="Header banner" />
+<img src="assets/header.svg" alt="Jervil Angelo De Leon - Cloud and Infrastructure Engineering" width="100%" />
 
 <a href="https://readme-typing-svg.demolab.com/">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Cloud+Infrastructure+%26+AWS;Serverless+Application+Development;Cloud+Networking+%26+Security;IT+Automation+%26+Monitoring;Building+Practical+Technical+Solutions" alt="Animated typing introduction" />
