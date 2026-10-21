@@ -133,12 +133,12 @@ A personal portfolio website presenting my background, technical projects, and d
 
 <br>
 
-### 05. ECCM Web
-`HTML`
+### 05. ECCM Church Website
+`HTML` · `CSS` · `GitHub Pages`
 
-A front-end web project built with HTML.
+A mobile-friendly, multi-page website for Evangelical Covenant Church Manila, with ministries, what-to-expect, and contact pages.
 
-[**Explore Repository →**](https://github.com/jervilangelo/eccm-web)
+[**Explore Repository →**](https://github.com/jervilangelo/eccm-web) · [**Live Site →**](https://jervilangelo.github.io/eccm-web/index.html)
 
 </td>
 </tr>
