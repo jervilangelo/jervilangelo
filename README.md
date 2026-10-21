@@ -1,10 +1,9 @@
-<!-- HEADER -->
 <div align="center">
 
-<img src="assets/header.svg" alt="Jervil Angelo De Leon - Cloud and Infrastructure Engineering" width="100%" />
+<img src="assets/header.svg" alt="Jervil Angelo De Leon - HRIS Technical Support, Cloud and Infrastructure" width="100%" />
 
 <a href="https://readme-typing-svg.demolab.com/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Cloud+Infrastructure+%26+AWS;Serverless+Application+Development;Cloud+Networking+%26+Security;IT+Automation+%26+Monitoring;Building+Practical+Technical+Solutions" alt="Animated typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=AWS+Cloud+Infrastructure;Serverless+Application+Development;Cloud+Networking+%26+Security;IT+Automation+%26+Monitoring" alt="Animated typing introduction" />
 </a>
 
 <br><br>
@@ -23,14 +22,10 @@
 
 ## 👨‍💻 About Me
 
-I'm an IT professional working in **HRIS Technical Support**, with a focus on cloud infrastructure, automation, and practical technology solutions.
-
-My experience spans AWS cloud services, server deployment, serverless application development, and business process automation. I enjoy building projects that solve real-world problems and growing my skills in infrastructure, networking, security, and automation.
+I work in HRIS Technical Support and build practical projects in AWS cloud services, server deployment, serverless development, and business process automation. I enjoy solving real-world problems with technology.
 
 ```yaml
-role: HRIS Technical Support
-focus: [AWS, Cloud Infrastructure, Serverless, Networking, Automation]
-goal: Infrastructure / Cloud Engineer
+goal: Cloud / Infrastructure Engineer
 currently_learning: [Cloud Networking, Security, Infrastructure Automation]
 ```
 
@@ -43,7 +38,6 @@ currently_learning: [Cloud Networking, Security, Infrastructure Automation]
 <img src="https://img.shields.io/badge/Projects_Built-5-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="Projects built" />
 <img src="https://img.shields.io/badge/Certifications_%26_Badges-10-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Certifications and badges" />
 <img src="https://img.shields.io/badge/AWS_Services_Used-7-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS services used" />
-<img src="https://img.shields.io/badge/Focus-Cloud_%26_Infra-22C55E?style=for-the-badge" alt="Focus" />
 
 <br><br>
 
@@ -52,7 +46,11 @@ currently_learning: [Cloud Networking, Security, Infrastructure Automation]
 
 <img src="https://streak-stats.demolab.com/?user=jervilangelo&theme=transparent&hide_border=true&ring=38BDF8&fire=FF9900&currStreakLabel=38BDF8" alt="GitHub streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=jervilangelo&bg_color=0d1117&color=38BDF8&line=38BDF8&point=ffffff&area=true&hide_border=true" alt="Contribution activity graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake.svg" />
+</picture>
 
 </div>
 
@@ -97,12 +95,7 @@ currently_learning: [Cloud Networking, Security, Infrastructure Automation]
 ### 01. AWS Serverless Ticketing API
 `Lambda` · `API Gateway` · `DynamoDB` · `SNS` · `CloudWatch`
 
-A serverless HRIS ticketing API that manages support requests, tracks SLAs, and sends automated email alerts for critical tickets.
-
-- CRUD operations for tickets
-- Filtering and SLA tracking
-- Email alerts for critical tickets
-- CloudWatch logging and monitoring
+A serverless HRIS ticketing API that manages support requests, tracks SLAs, and sends email alerts for critical tickets, with CloudWatch logging and monitoring.
 
 [**Explore Repository →**](https://github.com/jervilangelo/aws-serverless-ticketing-api)
 
@@ -125,10 +118,6 @@ A web server deployed on AWS EC2 inside a custom VPC, focused on cloud networkin
 `Power Automate` · `Excel` · `Power BI`
 
 Tracks HR template completion across business units, replacing manual file checks with a daily-synced dashboard.
-
-- Automated completion tracking
-- Consolidated data across business units
-- Dashboard-based reporting
 
 [**Explore Repository →**](https://github.com/jervilangelo/hris-template-tracker-automation-)
 
@@ -194,32 +183,8 @@ A front-end web project built with HTML.
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake.svg" />
-</picture>
-
-</div>
-
----
-
-## 🤝 Let's Connect
-
-I'm interested in cloud engineering, infrastructure, networking, automation, and opportunities to solve technical problems.
-
-- **LinkedIn:** [linkedin.com/in/jervilangelo](https://www.linkedin.com/in/jervilangelo/)
-- **Email:** [deleonangelojervil@gmail.com](mailto:deleonangelojervil@gmail.com)
-- **GitHub:** [github.com/jervilangelo](https://github.com/jervilangelo)
-
 <div align="center">
 
 *Building, learning, and improving one project at a time.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" alt="Footer" />
 
 </div>
