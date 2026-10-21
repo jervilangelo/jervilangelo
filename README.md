@@ -124,7 +124,7 @@ Tracks HR template completion across business units, replacing manual file check
 </td>
 <td width="50%" valign="top">
 
-### 04. De Leon Portfolio
+### 04. Portfolio
 `HTML` · `CSS`
 
 A personal portfolio website presenting my background, technical projects, and development journey.
