@@ -36,7 +36,7 @@ currently_learning: [Cloud Networking, Security, Infrastructure Automation]
 <div align="center">
 
 <img src="https://img.shields.io/badge/Projects_Built-5-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="Projects built" />
-<img src="https://img.shields.io/badge/Certifications_%26_Badges-10-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Certifications and badges" />
+<img src="https://img.shields.io/badge/Certifications_%26_Badges-15-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Certifications and badges" />
 <img src="https://img.shields.io/badge/AWS_Services_Used-7-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS services used" />
 
 <br><br>
@@ -60,10 +60,18 @@ currently_learning: [Cloud Networking, Security, Infrastructure Automation]
 
 <div align="center">
 
-### ☁️ Cloud & AI
+### ☁️ Amazon Web Services
 
+<img src="assets/badges/aws-ccp.png" width="140" alt="AWS Certified Cloud Practitioner" />
 <img src="assets/badges/aws-ai-practitioner.png" width="140" alt="AWS Certified AI Practitioner" />
+
+### 🔴 Oracle Cloud Infrastructure
+
 <img src="assets/badges/oci-associate.png" width="140" alt="Oracle Cloud Infrastructure Foundations Associate" />
+<img src="assets/badges/oci-arch.png" width="140" alt="Oracle Cloud Infrastructure Architect" />
+<img src="assets/badges/oci-ai.png" width="140" alt="Oracle Cloud Infrastructure AI" />
+<img src="assets/badges/oci-aidb.png" width="140" alt="Oracle AI Database" />
+<img src="assets/badges/oci-agentic.png" width="140" alt="Oracle Cloud Infrastructure Agentic AI" />
 
 ### 🌐 Networking & Security (Cisco)
 
