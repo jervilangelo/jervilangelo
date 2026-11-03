@@ -1,5 +1,3 @@
-# Hi, I'm Jervil Angelo De Leon 👋
-
 <div align="center">
 
 <img src="assets/header.svg" alt="Jervil Angelo De Leon — Cloud & Infrastructure Portfolio" width="100%" />
