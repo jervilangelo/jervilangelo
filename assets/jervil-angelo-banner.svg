@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title description">
+<title id="title">Jervil Angelo De Leon — Cloud and Infrastructure</title>
+<desc id="description">HRIS Technical Support · 2x AWS Certified &amp; 2x OCI Certified · Cloud &amp; Infrastructure Projects. AWS services orbit a softly shaded cloud, including AWS Lambda, S3, EC2, DynamoDB, and CloudWatch icons.</desc>
+<defs>
+  <radialGradient id="glow"><stop stop-color="#8fa68e" stop-opacity=".18"/><stop offset="1" stop-color="#8fa68e" stop-opacity="0"/></radialGradient>
+  <radialGradient id="shadow"><stop stop-opacity=".5"/><stop offset="1" stop-opacity="0"/></radialGradient>
+  <filter id="lift" x="-50%" y="-40%" width="200%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity=".28"/></filter>
+  <clipPath id="tile"><rect width="56" height="56" rx="12"/></clipPath>
+</defs>
+<style>
+  text { font-family: 'Clash Grotesk', 'Segoe UI', Arial, sans-serif; }
+  .float { animation: hover 8s ease-in-out infinite; }
+  .service { animation: orbit 36s linear infinite; }
+  @keyframes hover { 0%,100% { transform:translateY(0) } 50% { transform:translateY(-12px) } }
+  @keyframes orbit { 0% { transform:translate(245.000px,0.000px); }
+1% { transform:translate(244.517px,10.988px); }
+2% { transform:translate(243.068px,21.933px); }
+3% { transform:translate(240.660px,32.792px); }
+4% { transform:translate(237.303px,43.521px); }
+5% { transform:translate(233.009px,54.078px); }
+6% { transform:translate(227.795px,64.422px); }
+7% { transform:translate(221.683px,74.511px); }
+8% { transform:translate(214.695px,84.307px); }
+9% { transform:translate(206.860px,93.770px); }
+10% { transform:translate(198.209px,102.862px); }
+11% { transform:translate(188.776px,111.549px); }
+12% { transform:translate(178.597px,119.796px); }
+13% { transform:translate(167.714px,127.570px); }
+14% { transform:translate(156.169px,134.840px); }
+15% { transform:translate(144.007px,141.578px); }
+16% { transform:translate(131.278px,147.757px); }
+17% { transform:translate(118.030px,153.354px); }
+18% { transform:translate(104.316px,158.345px); }
+19% { transform:translate(90.191px,162.711px); }
+20% { transform:translate(75.709px,166.435px); }
+21% { transform:translate(60.929px,169.502px); }
+22% { transform:translate(45.908px,171.900px); }
+23% { transform:translate(30.707px,173.620px); }
+24% { transform:translate(15.384px,174.655px); }
+25% { transform:translate(0.000px,175.000px); }
+26% { transform:translate(-15.384px,174.655px); }
+27% { transform:translate(-30.707px,173.620px); }
+28% { transform:translate(-45.908px,171.900px); }
+29% { transform:translate(-60.929px,169.502px); }
+30% { transform:translate(-75.709px,166.435px); }
+31% { transform:translate(-90.191px,162.711px); }
+32% { transform:translate(-104.316px,158.345px); }
+33% { transform:translate(-118.030px,153.354px); }
+34% { transform:translate(-131.278px,147.757px); }
+35% { transform:translate(-144.007px,141.578px); }
+36% { transform:translate(-156.169px,134.840px); }
+37% { transform:translate(-167.714px,127.570px); }
+38% { transform:translate(-178.597px,119.796px); }
+39% { transform:translate(-188.776px,111.549px); }
+40% { transform:translate(-198.209px,102.862px); }
+41% { transform:translate(-206.860px,93.770px); }
+42% { transform:translate(-214.695px,84.307px); }
+43% { transform:translate(-221.683px,74.511px); }
+44% { transform:translate(-227.795px,64.422px); }
+45% { transform:translate(-233.009px,54.078px); }
+46% { transform:translate(-237.303px,43.521px); }
+47% { transform:translate(-240.660px,32.792px); }
+48% { transform:translate(-243.068px,21.933px); }
+49% { transform:translate(-244.517px,10.988px); }
+50% { transform:translate(-245.000px,0.000px); }
+51% { transform:translate(-244.517px,-10.988px); }
+52% { transform:translate(-243.068px,-21.933px); }
+53% { transform:translate(-240.660px,-32.792px); }
+54% { transform:translate(-237.303px,-43.521px); }
+55% { transform:translate(-233.009px,-54.078px); }
+56% { transform:translate(-227.795px,-64.422px); }
+57% { transform:translate(-221.683px,-74.511px); }
+58% { transform:translate(-214.695px,-84.307px); }
+59% { transform:translate(-206.860px,-93.770px); }
+60% { transform:translate(-198.209px,-102.862px); }
+61% { transform:translate(-188.776px,-111.549px); }
+62% { transform:translate(-178.597px,-119.796px); }
+63% { transform:translate(-167.714px,-127.570px); }
+64% { transform:translate(-156.169px,-134.840px); }
+65% { transform:translate(-144.007px,-141.578px); }
+66% { transform:translate(-131.278px,-147.757px); }
+67% { transform:translate(-118.030px,-153.354px); }
+68% { transform:translate(-104.316px,-158.345px); }
+69% { transform:translate(-90.191px,-162.711px); }
+70% { transform:translate(-75.709px,-166.435px); }
+71% { transform:translate(-60.929px,-169.502px); }
+72% { transform:translate(-45.908px,-171.900px); }
+73% { transform:translate(-30.707px,-173.620px); }
+74% { transform:translate(-15.384px,-174.655px); }
+75% { transform:translate(-0.000px,-175.000px); }
+76% { transform:translate(15.384px,-174.655px); }
+77% { transform:translate(30.707px,-173.620px); }
+78% { transform:translate(45.908px,-171.900px); }
+79% { transform:translate(60.929px,-169.502px); }
+80% { transform:translate(75.709px,-166.435px); }
+81% { transform:translate(90.191px,-162.711px); }
+82% { transform:translate(104.316px,-158.345px); }
+83% { transform:translate(118.030px,-153.354px); }
+84% { transform:translate(131.278px,-147.757px); }
+85% { transform:translate(144.007px,-141.578px); }
+86% { transform:translate(156.169px,-134.840px); }
+87% { transform:translate(167.714px,-127.570px); }
+88% { transform:translate(178.597px,-119.796px); }
+89% { transform:translate(188.776px,-111.549px); }
+90% { transform:translate(198.209px,-102.862px); }
+91% { transform:translate(206.860px,-93.770px); }
+92% { transform:translate(214.695px,-84.307px); }
+93% { transform:translate(221.683px,-74.511px); }
+94% { transform:translate(227.795px,-64.422px); }
+95% { transform:translate(233.009px,-54.078px); }
+96% { transform:translate(237.303px,-43.521px); }
+97% { transform:translate(240.660px,-32.792px); }
+98% { transform:translate(243.068px,-21.933px); }
+99% { transform:translate(244.517px,-10.988px); }
+100% { transform:translate(245.000px,-0.000px); } }
+  @media (prefers-reduced-motion: reduce) { .float,.service { animation-play-state:paused; } }
+</style>
+<rect width="1600" height="560" rx="24" fill="#1c1c1c"/>
+<rect x="1" y="1" width="1598" height="558" rx="23" fill="none" stroke="#363732"/>
+<path d="M48 48h24" stroke="#8fa68e" stroke-width="3"/>
+<text x="86" y="54" fill="#a3a49f" font-size="14" letter-spacing="3">SUPPORT / CLOUD / INFRASTRUCTURE</text>
+<text x="64" y="193" fill="#f1f1ef" font-size="68" font-weight="500" letter-spacing="-3">Jervil Angelo</text>
+<text x="64" y="269" fill="#f1f1ef" font-size="68" font-weight="500" letter-spacing="-3">De Leon<tspan fill="#8fa68e">.</tspan></text>
+<text x="67" y="322" fill="#a9bfa8" font-size="23">Building my way into the cloud.</text>
+<path d="M66 358h770" stroke="#3a3a37"/>
+<text x="66" y="398" fill="#f1f1ef" font-size="21">HRIS Technical Support · 2x AWS Certified &amp; 2x OCI Certified ·</text>
+<text x="66" y="432" fill="#f1f1ef" font-size="21">Cloud &amp; Infrastructure Projects</text>
+<text x="66" y="505" fill="#a3a49f" font-size="16">jervilangelo.github.io/de-leon-portfolio</text>
+<circle cx="882" cy="500" r="4" fill="#8fa68e"/>
+<text x="897" y="505" fill="#a3a49f" font-size="13" letter-spacing="2">AWS + OCI</text>
+<ellipse cx="1250" cy="265" rx="330" ry="240" fill="url(#glow)"/>
+<ellipse cx="1254" cy="410" rx="182" ry="28" fill="url(#shadow)"/>
+<ellipse cx="1260" cy="265" rx="245" ry="175" fill="none" stroke="#8fa68e" stroke-opacity=".18" stroke-dasharray="3 10"/>
+<g transform="translate(1030 137)"><g class="float"><svg x="0" y="0" width="430" height="272" viewBox="0 0 600 380" focusable="false">
+        <defs>
+          <radialGradient id="lobe" cx="38%" cy="26%" r="82%">
+            <stop offset="0" stop-color="#fbfbf9"/>
+            <stop offset="0.5" stop-color="#eceee9"/>
+            <stop offset="0.86" stop-color="#d7dbd3"/>
+            <stop offset="1" stop-color="#c6cdc2"/>
+          </radialGradient>
+          <linearGradient id="shade" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="340">
+            <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+            <stop offset="0.42" stop-color="#ffffff" stop-opacity="0"/>
+            <stop offset="0.72" stop-color="#7f977e" stop-opacity="0.18"/>
+            <stop offset="1" stop-color="#5f765f" stop-opacity="0.62"/>
+          </linearGradient>
+          <mask id="cloudMask">
+            <g fill="#fff">
+              <circle cx="228" cy="160" r="92"/><circle cx="345" cy="122" r="118"/><circle cx="458" cy="178" r="82"/>
+              <rect x="92" y="196" width="436" height="124" rx="62"/>
+              <circle cx="138" cy="246" r="72"/><circle cx="256" cy="232" r="100"/><circle cx="388" cy="230" r="104"/><circle cx="494" cy="258" r="64"/>
+            </g>
+          </mask>
+        </defs>
+        <g fill="url(#lobe)">
+          <circle cx="228" cy="160" r="92"/>
+          <circle cx="345" cy="122" r="118"/>
+          <circle cx="458" cy="178" r="82"/>
+          <rect x="92" y="196" width="436" height="124" rx="62"/>
+          <circle cx="138" cy="246" r="72"/>
+          <circle cx="256" cy="232" r="100"/>
+          <circle cx="388" cy="230" r="104"/>
+          <circle cx="494" cy="258" r="64"/>
+        </g>
+        <rect width="600" height="380" fill="url(#shade)" mask="url(#cloudMask)"/>
+      </svg></g></g>
+<g transform="translate(1232 237)"><g class="service" style="animation-delay:-18s">
+<g filter="url(#lift)"><g clip-path="url(#tile)"><svg width="56" height="56" viewBox="0 0 64 64"><title>Icon-Architecture/48/Arch_AWS-Lambda_48</title><g fill="none" fill-rule="evenodd"><path fill="#ed7100" d="M0 0h64v64H0z"/><path fill="#fff" d="M22.68 52h-9.106l10.264-21.59 4.562 9.451zm2.047-24.333a.99.99 0 0 0-.896-.564h-.003a.99.99 0 0 0-.896.569L11.097 52.569c-.147.31-.126.674.057.965.181.29.5.466.842.466H23.31a1 1 0 0 0 .9-.572l6.194-13.144a1 1 0 0 0-.005-.864zM51.008 52h-9.022L26.955 19.578a1 1 0 0 0-.903-.578h-5.924l.007-7h11.68l14.96 32.42c.163.354.516.58.904.58h3.33zm.996-9h-3.69l-14.96-32.42a1 1 0 0 0-.903-.58H19.14a1 1 0 0 0-.996.999l-.008 9A.993.993 0 0 0 19.131 21h6.286l15.03 32.422a1 1 0 0 0 .903.578h10.654c.55 0 .996-.448.996-1v-9c0-.552-.445-1-.996-1"/></g></svg></g></g>
+<text x="28" y="79" text-anchor="middle" fill="#f1f1ef" font-size="15">Lambda</text>
+</g></g><g transform="translate(1232 237)"><g class="service" style="animation-delay:-25.2s">
+<g filter="url(#lift)"><g clip-path="url(#tile)"><svg width="56" height="56" viewBox="0 0 64 64"><title>Icon-Architecture/48/Arch_Amazon-Simple-Storage-Service_48</title><g fill="none" fill-rule="evenodd"><path fill="#7aa116" d="M0 0h64v64H0z"/><path fill="#fff" d="m47.759 33.948.234-1.817c2.173 1.254 2.849 1.99 3.044 2.293-.324.061-1.205.085-3.278-.476M30.499 21c-10.374 0-17.117-2.512-17.5-4.304v-.185c.35-1.119 6.14-4.51 17.5-4.51 11.34 0 17.133 3.38 17.5 4.504v.111C47.725 18.446 40.962 21 30.5 21m15.319 12.362c-4.765-1.565-10.906-4.383-13.224-5.474a2.09 2.09 0 0 0-2.082-1.982A2.097 2.097 0 0 0 28.418 28c0 1.154.94 2.094 2.094 2.094.457 0 .877-.152 1.22-.4 2.4 1.128 8.887 4.104 13.826 5.686l-1.721 13.344C43.583 50.352 38.919 52 30.497 52c-8.425 0-13.092-1.648-13.342-3.249l-3.72-28.937C16.945 21.915 23.749 23 30.5 23c6.75 0 13.554-1.085 17.065-3.185zM50 16.5c0-3.069-8.34-6.5-19.5-6.5S11 13.431 11 16.5v.543l4.174 31.99C15.874 53.516 26.123 54 30.497 54c4.372 0 14.616-.484 15.32-4.993l1.684-13.06c1.277.332 2.31.51 3.115.508.99 0 1.657-.252 2.08-.758.35-.416.489-.94.389-1.476-.228-1.22-1.682-2.509-4.715-4.177l-.1-.055L50 17.044z"/></g></svg></g></g>
+<text x="28" y="79" text-anchor="middle" fill="#f1f1ef" font-size="15">S3</text>
+</g></g><g transform="translate(1232 237)"><g class="service" style="animation-delay:-32.4s">
+<g filter="url(#lift)"><g clip-path="url(#tile)"><svg width="56" height="56" viewBox="0 0 64 64"><title>Icon-Architecture/48/Arch_Amazon-EC2_48</title><g fill="none" fill-rule="evenodd"><path fill="#ed7100" d="M0 0h64v64H0z"/><path fill="#fff" d="M22 41h19V23H22zm21-18h3v2h-3v2h3v2h-3v2h3v2h-3v3h3v2h-3v2h3v2h-3.137c-.255.587-.84 1-1.519 1H41v3h-2v-3h-2v3h-2v-3h-2v3h-2v-3h-2v3h-2v-3h-3v3h-2v-3h-.344a1.66 1.66 0 0 1-1.519-1H18v-2h2v-2h-2v-2h2v-3h-2v-2h2v-2h-2v-2h2v-2h-2v-2h2v-.344c0-.913.743-1.656 1.656-1.656H22v-3h2v3h3v-3h2v3h2v-3h2v3h2v-3h2v3h2v-3h2v3h.344c.913 0 1.656.743 1.656 1.656zM32 52H12V32h4v-2h-4.157A1.845 1.845 0 0 0 10 31.843v20.314c0 1.016.826 1.843 1.843 1.843h20.314A1.845 1.845 0 0 0 34 52.157V48h-2zm22-40.157v20.314A1.845 1.845 0 0 1 52.157 34H48v-2h4V12H32v4h-2v-4.157c0-1.016.826-1.843 1.843-1.843h20.314c1.017 0 1.843.827 1.843 1.843"/></g></svg></g></g>
+<text x="28" y="79" text-anchor="middle" fill="#f1f1ef" font-size="15">EC2</text>
+</g></g><g transform="translate(1232 237)"><g class="service" style="animation-delay:-3.6s">
+<g filter="url(#lift)"><g clip-path="url(#tile)"><svg width="56" height="56" viewBox="0 0 64 64"><title>Icon-Architecture/48/Arch_Amazon-DynamoDB_48</title><g fill="none" fill-rule="evenodd"><path fill="#c925d1" d="M0 0h64v64H0z"/><path fill="#fff" d="M46.586 25.25H43a1 1 0 0 1-.822-.435 1.02 1.02 0 0 1-.114-.931l2.493-6.722h-8.913l-4.091 9.098H36c.32 0 .623.156.812.42.187.264.239.602.136.91l-3.66 11.101zm3.12-.297L31.709 43.15a.99.99 0 0 1-1.232.146 1.014 1.014 0 0 1-.423-1.18l4.56-13.833H30a1 1 0 0 1-.841-.463 1.02 1.02 0 0 1-.07-.966l5-11.12a1 1 0 0 1 .91-.593h11c.329 0 .636.163.823.435.187.273.23.62.115.931l-2.494 6.721H49a1 1 0 0 1 .924.624c.155.378.069.813-.217 1.102M41.002 44.22c-2.71 1.886-7.687 2.882-12.468 2.882-4.816 0-9.837-1.01-12.533-2.924l.001 3.816c0 1.664 4.768 3.984 12.532 3.984 7.495 0 12.468-2.702 12.468-4.49zm2.064-3.27c0 .187-.032.367-.064.546v5.993C43 51.079 36.51 54 28.533 54c-6.903 0-13.871-1.89-14.473-5.5h-.059L14 43.445V16.151h.001c0-3.996 7.487-6.151 14.532-6.151 3.94 0 7.73.64 10.397 1.756l-.766 1.868c-2.432-1.019-5.943-1.602-9.631-1.602-7.764 0-12.532 2.405-12.532 4.13 0 1.724 4.768 4.129 12.532 4.129.195 0 .399 0 .596-.007l.078 2.02c-.225.009-.45.009-.674.009-4.817 0-9.837-1.01-12.533-2.924v4.358h.001v.017c.005.53.489 1.143 1.364 1.72 1.982 1.288 5.55 2.168 9.539 2.351l-.091 2.02c-4.126-.19-7.75-1.069-10.086-2.416-.31.298-.726 1.056-.726 1.467 0 1.724 4.768 4.129 12.532 4.129.738 0 1.465-.025 2.162-.075l.14 2.017c-.743.054-1.518.08-2.302.08-4.817 0-9.837-1.009-12.533-2.924v3.67h.001c.005.547.489 1.16 1.364 1.737 2.268 1.474 6.549 2.393 11.168 2.393h.33v2.022h-.33c-4.778 0-9.86-1.008-12.532-2.543-.322.298 0 1.01 0 1.548 0 1.725 4.768 4.13 12.532 4.13s12.532-2.405 12.532-4.13c0-.61-.6-1.174-1.092-1.538-.41.247-.86.483-1.372.7l-.768-1.868c.53-.223.99-.463 1.364-.711 1.1-.734 1.804-1.779 1.804-2.175h2c0 .94-.621 1.947-1.417 2.775 1.192 1.04 1.48 2.078 1.48 2.817M17.142 48.39c.791.408 1.716.772 2.752 1.08l.564-1.94a14 14 0 0 1-2.406-.94zm2.752-11.05.564-1.94c-.916-.272-1.726-.589-2.406-.94l-.91 1.799c.791.41 1.716.772 2.752 1.08m-2.752-13.21.91-1.801c.68.352 1.49.668 2.406.94l-.564 1.94a16 16 0 0 1-2.752-1.08"/></g></svg></g></g>
+<text x="28" y="79" text-anchor="middle" fill="#f1f1ef" font-size="15">DynamoDB</text>
+</g></g><g transform="translate(1232 237)"><g class="service" style="animation-delay:-10.8s">
+<g filter="url(#lift)"><g clip-path="url(#tile)"><svg width="56" height="56" viewBox="0 0 64 64"><title>Icon-Architecture/48/Arch_Amazon-CloudWatch_48</title><g fill="none" fill-rule="evenodd"><path fill="#e7157b" d="M0 0h64v64H0z"/><path fill="#fff" d="M42.184 39.381a4.095 4.095 0 0 0-8.189 0 4.095 4.095 0 0 0 8.189 0m2 0c0 3.353-2.734 6.081-6.095 6.081s-6.094-2.728-6.094-6.08c0-3.354 2.734-6.082 6.094-6.082s6.095 2.728 6.095 6.081m6.559 10.235-4.897-4.4a10 10 0 0 1-1.061 1.19l4.886 4.397a.806.806 0 0 0 1.131-.059.8.8 0 0 0-.059-1.128m-12.654-2.524c4.262 0 7.729-3.46 7.729-7.71 0-4.252-3.467-7.711-7.729-7.711-4.26 0-7.727 3.459-7.727 7.71s3.467 7.71 7.727 7.71m13.992 1.042a2.796 2.796 0 0 1 .207 3.946c-.553.61-1.317.92-2.083.92a2.8 2.8 0 0 1-1.872-.713l-5.161-4.646a9.67 9.67 0 0 1-5.083 1.446c-5.364 0-9.727-4.354-9.727-9.706s4.363-9.706 9.727-9.706c5.365 0 9.729 4.354 9.729 9.706a9.6 9.6 0 0 1-.921 4.095zM17.697 23.538c0 .401.023.8.07 1.185a.997.997 0 0 1-.806 1.101C15.084 26.308 12 27.772 12 32.157c0 3.323 1.836 5.157 3.377 6.11.672.423 1.263.638 1.761.643h8.989v1.996h-9c-.884-.01-1.827-.329-2.81-.947C12.708 38.964 10 36.62 10 32.157c0-5.27 3.526-7.293 5.71-8.04a14 14 0 0 1-.013-.579c0-4.378 2.976-8.916 6.924-10.56 4.611-1.927 9.498-.971 13.066 2.556 1.047 1.033 1.917 2.274 2.598 3.702a5.3 5.3 0 0 1 3.174-1.061c2.415 0 5.128 1.793 5.663 5.715C50.58 24.722 54 27.278 54 32.217c0 2.89-1.136 5.24-3.287 6.792l-1.172-1.616C51.173 36.214 52 34.473 52 32.217c0-4.978-4.189-6.217-5.99-6.519a.996.996 0 0 1-.824-1.127c-.255-3.04-2.045-4.401-3.727-4.401-1.057 0-2.05.516-2.725 1.416a.999.999 0 0 1-1.741-.26c-.634-1.752-1.547-3.223-2.712-4.375-1.43-1.411-5.348-4.444-10.89-2.132-3.193 1.33-5.694 5.16-5.694 8.72"/></g></svg></g></g>
+<text x="28" y="79" text-anchor="middle" fill="#f1f1ef" font-size="15">CloudWatch</text>
+</g></g><path d="M66 542h130" stroke="#c8c5ba" stroke-width="4"/><path d="M196 542h130" stroke="#8fa68e" stroke-width="4"/><path d="M326 542h130" stroke="#3a3a37" stroke-width="4"/><path d="M456 542h130" stroke="#e4e1d8" stroke-width="4"/>
+</svg>
