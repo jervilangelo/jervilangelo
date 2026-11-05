@@ -1,93 +1,134 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Jervil Angelo De Leon | Cloud and Infrastructure Engineering" width="100%" />
+<img src="assets/jervil-angelo-banner.svg" alt="Jervil Angelo De Leon — HRIS Technical Support, 2x AWS Certified and 2x OCI Certified. AWS services orbit a floating cloud." width="100%" />
 
-### HRIS Technical Support · AWS Certified · Cloud & Infrastructure Projects
+### HRIS Technical Support · 2x AWS Certified & 2x OCI Certified · Cloud & Infrastructure Projects
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+practical+cloud+solutions;Learning+through+design%2C+deployment+and+iteration;Turning+real-world+problems+into+projects" alt="Animated introduction" />
+[![View my portfolio](https://img.shields.io/badge/VIEW_MY_PORTFOLIO-8FA68E?style=for-the-badge&logo=googlechrome&logoColor=1C1C1C)](https://jervilangelo.github.io/de-leon-portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-303030?style=for-the-badge&logo=linkedin&logoColor=F1F1EF)](https://www.linkedin.com/in/jervilangelo/)
+[![Email](https://img.shields.io/badge/GET_IN_TOUCH-303030?style=for-the-badge&logo=gmail&logoColor=F1F1EF)](mailto:deleonangelojervil@gmail.com)
 
-[![Live Portfolio](https://img.shields.io/badge/VIEW_MY_PORTFOLIO-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jervilangelo.github.io/de-leon-portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jervilangelo/)
-[![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deleonangelojervil@gmail.com)
+**Building my way into the cloud.**
 
-![Profile views](https://komarev.com/ghpvc/?username=jervilangelo&label=Profile%20views&color=0e75b6&style=flat-square)
+Hands-on projects. Documented decisions. Learning through deployment and recovery.
 
 </div>
 
-## About
+## About me
 
-I'm a Philippines-based **HRIS Technical Support professional** building hands-on experience in **AWS cloud infrastructure, serverless applications, networking, security, and automation**. My projects connect the support challenges I encounter at work with practical cloud engineering skills.
+I'm **Jervil Angelo De Leon**, a Philippines-based HRIS Technical Support professional building practical experience in **cloud infrastructure, serverless applications, security, and automation**. I turn real support scenarios and community needs into projects I can deploy, test, and improve.
 
-I'm continuing to develop toward a **Cloud / Infrastructure Engineering** role by building, deploying, testing, and improving real applications.
+I'm working toward a **Cloud / Infrastructure Engineering** role, with a focus on **AWS, Terraform, CI/CD, Linux, and reliable operations**.
 
-- **Currently working on:** cloud projects, application deployment, and infrastructure fundamentals
-- **Interested in:** AWS, secure architectures, automation, and useful community platforms
-- **Explore my work:** [Live portfolio](https://jervilangelo.github.io/de-leon-portfolio/) · [All repositories](https://github.com/jervilangelo?tab=repositories)
+## Latest projects
 
----
+### BayanihanDR · Terraform-powered disaster recovery
 
-## Featured launch · [Teolohiya.site](https://teolohiya.site)
+A disaster recovery proof of concept for Philippine small businesses. It verifies database backups, stores encrypted copies off-site, and uses **Terraform** to provision a temporary AWS recovery environment after operator approval.
 
-**A Philippine platform for discovering and listing Christian theological books.** Built to connect Filipino readers and independent sellers, with transactions arranged directly between them.
+- **Infrastructure as code:** Terraform manages standby resources and temporary recovery servers in AWS Singapore.
+- **CI/CD:** GitHub Actions checks application code, backup integrity, Terraform, and the dashboard, and deploys the public demo.
+- **Measured recovery:** a real AWS drill recovered the sample application in **5 min 29 sec**, with **26 sec of potential data loss**. These are single-run results on synthetic data; off-site uploads currently require an operator session.
 
-`Next.js` · `TypeScript` · `Tailwind CSS` · `AWS Amplify` · `Amazon Cognito` · `DynamoDB` · `S3`
+**AWS:** EC2 · S3 · IAM · IAM Identity Center · Systems Manager · CloudWatch · AWS Budgets
 
-[![Visit Teolohiya.site](https://img.shields.io/badge/OPEN_LIVE_SITE-166534?style=for-the-badge&logo=googlechrome&logoColor=white)](https://teolohiya.site)
-[![Source](https://img.shields.io/badge/VIEW_SOURCE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jervilangelo/teolohiya-repo)
+**Tools:** Terraform · Python · FastAPI · PostgreSQL · Docker · React · GitHub Actions
 
----
+[![BayanihanDR CI](https://github.com/jervilangelo/bayanihan-dr/actions/workflows/ci.yml/badge.svg)](https://github.com/jervilangelo/bayanihan-dr/actions/workflows/ci.yml)
+[![BayanihanDR public site check](https://github.com/jervilangelo/bayanihan-dr/actions/workflows/public-site.yml/badge.svg)](https://github.com/jervilangelo/bayanihan-dr/actions/workflows/public-site.yml)
 
-## Selected projects
+[**Explore the demo →**](https://jervilangelo.github.io/bayanihan-dr/) · [Source code](https://github.com/jervilangelo/bayanihan-dr) · [Recovery drill evidence](https://github.com/jervilangelo/bayanihan-dr/blob/main/docs/evidence/phase7-disaster-drill.md)
 
-| Project | What I built | Technologies | Links |
-| :-- | :-- | :-- | :-- |
-| **AWS Serverless Ticketing API** | HRIS support ticket API with status tracking, critical-ticket notifications, and monitoring. | Lambda, API Gateway, DynamoDB, SNS, CloudWatch | [Repository](https://github.com/jervilangelo/aws-serverless-ticketing-api) |
-| **Secure EC2 Web Server** | Linux/Nginx web server in a custom VPC, with security groups and controlled access. | EC2, VPC, IAM, Linux, Nginx | [Repository](https://github.com/jervilangelo/secure-ec2-web-server) |
-| **HRIS Template Tracker Automation** | Workflow to improve visibility of HRIS template completion across business units. | Power Automate, Excel, Power BI | [Repository](https://github.com/jervilangelo/hris-template-tracker-automation-) |
-| **ECCM Church Website** | Responsive informational website for Evangelical Covenant Church Manila. | HTML, CSS, JavaScript, GitHub Pages | [Live site](https://ecc-manila.org) · [Repository](https://github.com/jervilangelo/eccm-web) |
-| **Personal Portfolio** | A dedicated site for my projects, certifications, experience, and learning journey. | Web development, GitHub Pages | [Live portfolio](https://jervilangelo.github.io/de-leon-portfolio/) · [Repository](https://github.com/jervilangelo/de-leon-portfolio) |
+### Teolohiya.site · A serverless book-listing platform
 
----
+A live platform that helps Filipino readers discover and list Christian theological books. Sellers submit listings and photos; moderators review them before publication; readers contact sellers directly.
 
-## Certifications & learning
+- **Serverless backend:** Amplify Gen 2 provisions authentication, a GraphQL API, storage, and backend functions.
+- **Access control:** Cognito roles, scoped IAM permissions, and Lambda-controlled moderation protect listings and administrative actions.
+- **Delivery:** GitHub-connected Amplify deployments serve the Next.js application over HTTPS.
+
+**AWS:** Amplify · Cognito · AppSync · DynamoDB · S3 · Lambda · CloudFront · ACM · IAM · CDK / CloudFormation
+
+**Tools:** Next.js · TypeScript · Tailwind CSS
+
+[**Visit Teolohiya.site →**](https://teolohiya.site) · [Source code and architecture](https://github.com/jervilangelo/teolohiya-repo)
+
+### PinansyalPH · Philippine money calculators
+
+A financial education project, currently presented as **Worth It Ba Sa Pilipinas?**, that helps Filipinos explore salary deductions, expenses, MP2 savings, digital bank returns, and the effect of inflation on purchasing power.
+
+- **Useful calculations:** compare savings in pesos and inflation-adjusted value, and estimate take-home pay and expenses.
+- **Data updates:** scheduled GitHub Actions retrieve and validate economic data, keeping the last valid dataset if a source fails.
+- **CI/CD:** data validation, lint, unit tests, browser tests, and a production build run before GitHub Pages deployment.
+
+**Tools:** React · TypeScript · Vite · Tailwind CSS · Recharts · Vitest · Playwright · GitHub Actions · GitHub Pages
+
+[**Try the calculators →**](https://jervilangelo.github.io/pinansyalph/) · [Source code and methodology](https://github.com/jervilangelo/pinansyalph)
+
+## AWS services I've used
+
+| Area | Services | Where I applied them |
+|---|---|---|
+| Compute and networking | **EC2, VPC, Systems Manager** | Recovery infrastructure and a hardened Linux/Nginx web server |
+| Serverless APIs | **Lambda, API Gateway, AppSync** | HRIS ticketing API and Teolohiya's listing and moderation workflows |
+| Data and storage | **S3, DynamoDB** | Verified off-site backups, book photos, listings, and support tickets |
+| Identity and access | **IAM, IAM Identity Center, Cognito** | Scoped permissions, temporary operator access, and application roles |
+| Hosting and delivery | **Amplify, CloudFront, ACM** | Teolohiya hosting, content delivery, and managed HTTPS |
+| Monitoring and cost | **CloudWatch, SNS, AWS Budgets** | Recovery logs, ticket alerts, monitoring, and budget notifications |
+| Infrastructure as code | **Terraform, CDK / CloudFormation** | Reproducible recovery infrastructure and Amplify Gen 2 backend resources |
+
+Amplify manages several of Teolohiya's underlying AWS resources. The service list reflects their roles in the deployed application.
+
+## More projects
+
+| Project | What I built |
+|---|---|
+| [AWS Serverless Ticketing API](https://github.com/jervilangelo/aws-serverless-ticketing-api) | An HRIS support API with ticket tracking, critical-ticket notifications, and monitoring using Lambda, API Gateway, DynamoDB, SNS, and CloudWatch. |
+| [Secure EC2 Web Server](https://github.com/jervilangelo/secure-ec2-web-server) | A Linux/Nginx server in a custom VPC with security groups, IAM, and EBS snapshots. |
+| [HRIS Template Tracker Automation](https://github.com/jervilangelo/hris-template-tracker-automation-) | Completion tracking across business units using Power Automate, Excel, and Power BI. |
+| [ECCM Church Website](https://github.com/jervilangelo/eccm-web) | A responsive nonprofit website with a custom domain, visitor resources, and SEO essentials. |
+
+## Certifications
 
 <div align="center">
 
-**AWS**
+**2x AWS Certified**
 
 <img src="assets/badges/aws-ccp.png" width="125" alt="AWS Certified Cloud Practitioner" /> <img src="assets/badges/aws-ai-practitioner.png" width="125" alt="AWS Certified AI Practitioner" />
 
-**Oracle Cloud Infrastructure**
+**2x Oracle Cloud Infrastructure Certified**
 
 <img src="assets/badges/oci-associate.png" width="125" alt="OCI Foundations Associate" /> <img src="assets/badges/oci-ai.png" width="125" alt="OCI AI Foundations Associate" />
 
+[Explore my certifications and learning journey →](https://jervilangelo.github.io/de-leon-portfolio/certifications)
+
 </div>
 
-**Other training and credentials:** Cisco Introduction to Networks · Cisco Switching, Routing, and Wireless Essentials · Cisco CyberOps Associate · Cisco Networking Basics · Google IT Support · Google System Administration and IT Infrastructure Services · IT Specialist: Databases · Autodesk Maya.
+Additional training includes Cisco networking and cybersecurity, Google IT Support and System Administration, and IT Specialist: Databases.
 
----
+## Tools I build with
 
-## Tools & technologies
+![Terraform](https://img.shields.io/badge/Terraform-303030?style=flat-square&logo=terraform&logoColor=A9BFA8)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-303030?style=flat-square&logo=githubactions&logoColor=A9BFA8)
+![Docker](https://img.shields.io/badge/Docker-303030?style=flat-square&logo=docker&logoColor=A9BFA8)
+![Linux](https://img.shields.io/badge/Linux-303030?style=flat-square&logo=linux&logoColor=A9BFA8)
+![Python](https://img.shields.io/badge/Python-303030?style=flat-square&logo=python&logoColor=A9BFA8)
+![TypeScript](https://img.shields.io/badge/TypeScript-303030?style=flat-square&logo=typescript&logoColor=A9BFA8)
+![React](https://img.shields.io/badge/React-303030?style=flat-square&logo=react&logoColor=A9BFA8)
+![Next.js](https://img.shields.io/badge/Next.js-303030?style=flat-square&logo=nextdotjs&logoColor=A9BFA8)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-303030?style=flat-square&logo=postgresql&logoColor=A9BFA8)
+![Git](https://img.shields.io/badge/Git-303030?style=flat-square&logo=git&logoColor=A9BFA8)
 
-**Cloud & infrastructure**
+## Building in public
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white) ![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square) ![VPC](https://img.shields.io/badge/VPC-FF9900?style=flat-square) ![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square) ![API Gateway](https://img.shields.io/badge/API_Gateway-FF9900?style=flat-square) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square) ![S3](https://img.shields.io/badge/S3-569A31?style=flat-square) ![Cognito](https://img.shields.io/badge/Cognito-FF9900?style=flat-square) ![Amplify](https://img.shields.io/badge/Amplify-FF9900?style=flat-square) ![IAM](https://img.shields.io/badge/IAM-232F3E?style=flat-square) ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square) ![SNS](https://img.shields.io/badge/SNS-FF9900?style=flat-square)
-
-**Development, systems & automation**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
----
-
-## GitHub activity
+[![Jervil Angelo's GitHub contribution activity](https://ghchart.rshah.org/8fa68e/jervilangelo)](https://github.com/jervilangelo?tab=repositories)
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=jervilangelo&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&icon_color=38BDF8" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jervilangelo&layout=compact&theme=transparent&hide_border=true&title_color=38BDF8" alt="Top languages" />
+**Explore the projects, architecture decisions, and lessons behind the code.**
 
-*Learning by building. Improving through practice.*
+[![View my portfolio](https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-8FA68E?style=for-the-badge&logo=googlechrome&logoColor=1C1C1C)](https://jervilangelo.github.io/de-leon-portfolio/)
 
-[**Portfolio**](https://jervilangelo.github.io/de-leon-portfolio/) · [**Teolohiya.site**](https://teolohiya.site) · [**GitHub repositories**](https://github.com/jervilangelo?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/jervilangelo/) · [Email](mailto:deleonangelojervil@gmail.com) · [All repositories](https://github.com/jervilangelo?tab=repositories)
 
 </div>
