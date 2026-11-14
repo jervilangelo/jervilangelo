@@ -20,7 +20,26 @@ I'm **Jervil Angelo De Leon**, a Philippines-based HRIS Technical Support profes
 
 I'm working toward a **Cloud / Infrastructure Engineering** role, with a focus on **AWS, Terraform, CI/CD, Linux, and reliable operations**.
 
+- 🔭 **Currently shipping:** [Opsentra](https://github.com/jervilangelo/opsentra), an AWS incident response platform with audited, approval-gated recovery
+- 🌱 **Learning:** CloudOps, incident management, observability, and least-privilege IAM
+- 🛠️ **Also building:** Silong, a Filipino literary refuge for poetry and stories (Next.js + Supabase)
+
 ## Latest projects
+
+### Opsentra · CloudOps and incident response for AWS
+
+**Monitor. Detect. Respond. Recover.** A web app that lets an operations team watch AWS workloads, detect an outage, investigate it, and run an approved, audited recovery, with no terminal and no console hopping. An incident closes only when independent health checks prove the service works again, not when a command reports "Success".
+
+- **Event-driven detection:** a probe Lambda feeds a CloudWatch alarm → EventBridge → deduplicated incidents with one SNS alert each, plus a reconciler for missed events.
+- **Guarded remediation:** operators request an allowlisted, SHA-256-pinned Systems Manager runbook; an admin approves; it runs exactly once. Roles come from Cognito groups, and every action lands in an append-only audit trail.
+- **Least privilege, tested:** Terraform tests pin every IAM policy, IAM Access Analyzer reports no findings, and a live false-success test proves that a "successful" fix which leaves the service down gets escalated.
+- **Two modes, never mixed:** a public Demo Mode with labelled synthetic data and zero AWS calls, and an authenticated Live AWS Mode that fails closed.
+
+**AWS:** Lambda · API Gateway · DynamoDB · EventBridge · CloudWatch · SNS · Systems Manager · Cognito · EC2 · S3 · IAM
+
+**Tools:** Terraform · Python · React · TypeScript · pytest · Vitest · Playwright · GitHub Actions
+
+[**Try the live demo →**](https://jervilangelo.github.io/opsentra/) · [Source code and architecture](https://github.com/jervilangelo/opsentra)
 
 ### BayanihanDR · Terraform-powered disaster recovery
 
@@ -53,29 +72,30 @@ A live platform that helps Filipino readers discover and list Christian theologi
 
 [**Visit Teolohiya.site →**](https://teolohiya.site) · [Source code and architecture](https://github.com/jervilangelo/teolohiya-repo)
 
-### PinansyalPH · Philippine money calculators
+### PinansyalPH · Financial literacy tools for Filipinos
 
-A financial education project, currently presented as **Worth It Ba Sa Pilipinas?**, that helps Filipinos explore salary deductions, expenses, MP2 savings, digital bank returns, and the effect of inflation on purchasing power.
+**Worth it ba sa Pilipinas?** Free, open-source calculators that show the arithmetic behind everyday money decisions, using the same figures the PSA, DOE, Pag-IBIG, BIR, and banks publish.
 
-- **Useful calculations:** compare savings in pesos and inflation-adjusted value, and estimate take-home pay and expenses.
-- **Data updates:** scheduled GitHub Actions retrieve and validate economic data, keeping the last valid dataset if a source fails.
-- **CI/CD:** data validation, lint, unit tests, browser tests, and a production build run before GitHub Pages deployment.
+- **Eight focused pages:** take-home pay (Sweldo), 13th month pay under PD 851, Pag-IBIG MP2, digital bank savings, side-by-side comparison, inflation, and weekly fuel prices.
+- **Sourced, dated data:** every figure shows its source, reference period, and retrieval date. Money is computed with decimal.js and rounded only where a real institution would round.
+- **Automated data pipeline:** a scheduled GitHub Actions workflow refreshes and validates economic data, commits only real changes, and triggers a fresh deploy.
 
-**Tools:** React · TypeScript · Vite · Tailwind CSS · Recharts · Vitest · Playwright · GitHub Actions · GitHub Pages
+**Tools:** React 19 · TypeScript · Vite · Tailwind CSS v4 · Vitest · Playwright · GitHub Actions · GitHub Pages
 
-[**Try the calculators →**](https://jervilangelo.github.io/pinansyalph/) · [Source code and methodology](https://github.com/jervilangelo/pinansyalph)
+[**Explore PinansyalPH →**](https://jervilangelo.github.io/pinansyalph-v2/) · [Source code and methodology](https://github.com/jervilangelo/pinansyalph-v2)
 
 ## AWS services I've used
 
 | Area | Services | Where I applied them |
 |---|---|---|
-| Compute and networking | **EC2, VPC, Systems Manager** | Recovery infrastructure and a hardened Linux/Nginx web server |
-| Serverless APIs | **Lambda, API Gateway, AppSync** | HRIS ticketing API and Teolohiya's listing and moderation workflows |
-| Data and storage | **S3, DynamoDB** | Verified off-site backups, book photos, listings, and support tickets |
-| Identity and access | **IAM, IAM Identity Center, Cognito** | Scoped permissions, temporary operator access, and application roles |
+| Compute and networking | **EC2, VPC, Systems Manager** | Recovery infrastructure, Opsentra's lab server and approved runbooks, and a hardened Linux/Nginx web server |
+| Serverless APIs | **Lambda, API Gateway, AppSync** | Opsentra's control plane, the HRIS ticketing API, and Teolohiya's listing and moderation workflows |
+| Event-driven automation | **EventBridge, SNS** | Alarm-to-incident routing in Opsentra and critical-ticket alerts |
+| Data and storage | **S3, DynamoDB** | Verified off-site backups, Terraform state, incidents and audit logs, book photos, listings, and support tickets |
+| Identity and access | **IAM, IAM Identity Center, Cognito, IAM Access Analyzer** | Scoped permissions, temporary operator access, role-based approvals, and policy verification |
 | Hosting and delivery | **Amplify, CloudFront, ACM** | Teolohiya hosting, content delivery, and managed HTTPS |
-| Monitoring and cost | **CloudWatch, SNS, AWS Budgets** | Recovery logs, ticket alerts, monitoring, and budget notifications |
-| Infrastructure as code | **Terraform, CDK / CloudFormation** | Reproducible recovery infrastructure and Amplify Gen 2 backend resources |
+| Monitoring and cost | **CloudWatch, AWS Budgets** | Health probes, alarms, operations dashboards, recovery logs, and budget notifications |
+| Infrastructure as code | **Terraform, CDK / CloudFormation** | Opsentra and BayanihanDR infrastructure, and Amplify Gen 2 backend resources |
 
 Amplify manages several of Teolohiya's underlying AWS resources. The service list reflects their roles in the deployed application.
 
@@ -83,10 +103,12 @@ Amplify manages several of Teolohiya's underlying AWS resources. The service lis
 
 | Project | What I built |
 |---|---|
+| [Schedrift](https://github.com/jervilangelo/schedrift) | A local-first tool that turns Microsoft Project (.mpp, .xml, .mpx) files into presentation-ready Gantt charts with critical-path analysis and "what if this task slips?" delay simulation. |
+| [ECCM Liturgy Planning](https://github.com/jervilangelo/scheduling-liturgy-system) · [live](https://jervilangelo.github.io/scheduling-liturgy-system/) | A Sunday order-of-worship planner that reads songs live from the church's song list, warns about recently sung songs, applies special-Sunday rules, and keeps versioned plans. |
 | [AWS Serverless Ticketing API](https://github.com/jervilangelo/aws-serverless-ticketing-api) | An HRIS support API with ticket tracking, critical-ticket notifications, and monitoring using Lambda, API Gateway, DynamoDB, SNS, and CloudWatch. |
 | [Secure EC2 Web Server](https://github.com/jervilangelo/secure-ec2-web-server) | A Linux/Nginx server in a custom VPC with security groups, IAM, and EBS snapshots. |
 | [HRIS Template Tracker Automation](https://github.com/jervilangelo/hris-template-tracker-automation-) | Completion tracking across business units using Power Automate, Excel, and Power BI. |
-| [ECCM Church Website](https://github.com/jervilangelo/eccm-web) | A responsive nonprofit website with a custom domain, visitor resources, and SEO essentials. |
+| [ECCM Church Website](https://github.com/jervilangelo/eccm-web) · [live](https://ecc-manila.org/) | A responsive nonprofit website with a custom domain, visitor resources, and SEO essentials. |
 
 ## Certifications
 
@@ -108,6 +130,7 @@ Additional training includes Cisco networking and cybersecurity, Google IT Suppo
 
 ## Tools I build with
 
+![AWS](https://img.shields.io/badge/AWS-303030?style=flat-square&logo=amazonwebservices&logoColor=A9BFA8)
 ![Terraform](https://img.shields.io/badge/Terraform-303030?style=flat-square&logo=terraform&logoColor=A9BFA8)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-303030?style=flat-square&logo=githubactions&logoColor=A9BFA8)
 ![Docker](https://img.shields.io/badge/Docker-303030?style=flat-square&logo=docker&logoColor=A9BFA8)
@@ -117,11 +140,19 @@ Additional training includes Cisco networking and cybersecurity, Google IT Suppo
 ![React](https://img.shields.io/badge/React-303030?style=flat-square&logo=react&logoColor=A9BFA8)
 ![Next.js](https://img.shields.io/badge/Next.js-303030?style=flat-square&logo=nextdotjs&logoColor=A9BFA8)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-303030?style=flat-square&logo=postgresql&logoColor=A9BFA8)
+![Supabase](https://img.shields.io/badge/Supabase-303030?style=flat-square&logo=supabase&logoColor=A9BFA8)
+![Playwright](https://img.shields.io/badge/Playwright-303030?style=flat-square&logo=playwright&logoColor=A9BFA8)
 ![Git](https://img.shields.io/badge/Git-303030?style=flat-square&logo=git&logoColor=A9BFA8)
 
 ## Building in public
 
 [![Jervil Angelo's GitHub contribution activity](https://ghchart.rshah.org/8fa68e/jervilangelo)](https://github.com/jervilangelo?tab=repositories)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake.svg" />
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/jervilangelo/jervilangelo/output/github-snake.svg" width="100%" />
+</picture>
 
 <div align="center">
 
