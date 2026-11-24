@@ -174,8 +174,8 @@ Additional training includes Cisco networking and cybersecurity, Google IT Suppo
 <div align="center">
 
 ![Profile views](https://komarev.com/ghpvc/?username=jervilangelo&label=Profile%20Views&color=8fa68e&style=flat-square)
-![GitHub followers](https://img.shields.io/github/followers/jervilangelo?style=flat-square&label=Followers&color=8fa68e)
-![GitHub stars](https://img.shields.io/github/stars/jervilangelo?affiliations=OWNER&style=flat-square&label=Repository%20Stars&color=8fa68e)
+[![GitHub followers](https://img.shields.io/badge/GitHub-Followers-8fa68e?style=flat-square&logo=github&logoColor=white)](https://github.com/jervilangelo?tab=followers)
+[![Starred repositories](https://img.shields.io/badge/GitHub-Repositories-8fa68e?style=flat-square&logo=github&logoColor=white)](https://github.com/jervilangelo?tab=repositories)
 
 <a href="https://github.com/jervilangelo">
   <img src="https://github-readme-stats.vercel.app/api?username=jervilangelo&show_icons=true&hide_border=true&bg_color=00000000&title_color=8fa68e&icon_color=8fa68e&text_color=888888&include_all_commits=true" alt="Jervil Angelo's GitHub statistics" height="165" />
