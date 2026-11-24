@@ -24,7 +24,7 @@ I'm **Jervil Angelo De Leon**, a Philippines-based HRIS Technical Support profes
 
 I'm working toward a **Cloud / Infrastructure Engineering** role, with a focus on **AWS, Terraform, CI/CD, Linux, and reliable operations**.
 
-- 🔭 **Currently shipping:** [Opsentra](https://github.com/jervilangelo/opsentra), an AWS incident response platform with audited, approval-gated recovery
+- 🔭 **Currently building:** **Resolved**, a privacy-focused browser protection and accountability project
 - 🌱 **Learning:** CloudOps, incident management, observability, and least-privilege IAM
 - 🛠️ **Also building:** Silong, a Filipino literary refuge for poetry and stories (Next.js + Supabase)
 
