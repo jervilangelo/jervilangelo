@@ -2,19 +2,23 @@
 
 <img src="assets/jervil-angelo-banner.svg" alt="Jervil Angelo De Leon — HRIS Technical Support, 2x AWS Certified and 2x OCI Certified. AWS services orbit a floating cloud." width="100%" />
 
-### HRIS Technical Support · 2x AWS Certified & 2x OCI Certified · Cloud & Infrastructure Projects
+### 2x AWS & OCI Certified | Cloud & Infrastructure Engineering
 
-[![View my portfolio](https://img.shields.io/badge/VIEW_MY_PORTFOLIO-8FA68E?style=for-the-badge&logo=googlechrome&logoColor=1C1C1C)](https://jervilangelo.github.io/de-leon-portfolio/)
+`HRIS Technical Support` · `AWS Infrastructure` · `Automation` · `Philippines`
+
+[![View my portfolio](https://img.shields.io/badge/VIEW_MY_PORTFOLIO-8FA68E?style=for-the-badge&logo=googlechrome&logoColor=1C1C1C)](https://jervilangelo.online/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-303030?style=for-the-badge&logo=linkedin&logoColor=F1F1EF)](https://www.linkedin.com/in/jervilangelo/)
 [![Email](https://img.shields.io/badge/GET_IN_TOUCH-303030?style=for-the-badge&logo=gmail&logoColor=F1F1EF)](mailto:deleonangelojervil@gmail.com)
 
-**Building my way into the cloud.**
+**Building practical infrastructure, resilient systems, and tools that solve real problems.**
 
-Hands-on projects. Documented decisions. Learning through deployment and recovery.
+<sub>Hands-on engineering · Documented decisions · Learning through deployment, testing, and recovery</sub>
 
 </div>
 
-## About me
+---
+
+## About
 
 I'm **Jervil Angelo De Leon**, a Philippines-based HRIS Technical Support professional building practical experience in **cloud infrastructure, serverless applications, security, and automation**. I turn real support scenarios and community needs into projects I can deploy, test, and improve.
 
@@ -24,9 +28,13 @@ I'm working toward a **Cloud / Infrastructure Engineering** role, with a focus o
 - 🌱 **Learning:** CloudOps, incident management, observability, and least-privilege IAM
 - 🛠️ **Also building:** Silong, a Filipino literary refuge for poetry and stories (Next.js + Supabase)
 
-## Latest projects
+---
 
-### Opsentra · CloudOps and incident response for AWS
+## Featured projects
+
+<sub>Selected work across CloudOps, infrastructure, serverless systems, and community-focused applications.</sub>
+
+### 01 / Opsentra — CloudOps & incident response for AWS
 
 **Monitor. Detect. Respond. Recover.** A web app that lets an operations team watch AWS workloads, detect an outage, investigate it, and run an approved, audited recovery, with no terminal and no console hopping. An incident closes only when independent health checks prove the service works again, not when a command reports "Success".
 
@@ -41,7 +49,7 @@ I'm working toward a **Cloud / Infrastructure Engineering** role, with a focus o
 
 [**Try the live demo →**](https://jervilangelo.github.io/opsentra/) · [Source code and architecture](https://github.com/jervilangelo/opsentra)
 
-### BayanihanDR · Terraform-powered disaster recovery
+### 02 / BayanihanDR — Terraform-powered disaster recovery
 
 A disaster recovery proof of concept for Philippine small businesses. It verifies database backups, stores encrypted copies off-site, and uses **Terraform** to provision a temporary AWS recovery environment after operator approval.
 
@@ -58,7 +66,7 @@ A disaster recovery proof of concept for Philippine small businesses. It verifie
 
 [**Explore the demo →**](https://jervilangelo.github.io/bayanihan-dr/) · [Source code](https://github.com/jervilangelo/bayanihan-dr) · [Recovery drill evidence](https://github.com/jervilangelo/bayanihan-dr/blob/main/docs/evidence/phase7-disaster-drill.md)
 
-### Teolohiya.site · A serverless book-listing platform
+### 03 / Teolohiya.site — Serverless book-listing platform
 
 A live platform that helps Filipino readers discover and list Christian theological books. Sellers submit listings and photos; moderators review them before publication; readers contact sellers directly.
 
@@ -72,7 +80,7 @@ A live platform that helps Filipino readers discover and list Christian theologi
 
 [**Visit Teolohiya.site →**](https://teolohiya.site) · [Source code and architecture](https://github.com/jervilangelo/teolohiya-repo)
 
-### PinansyalPH · Financial literacy tools for Filipinos
+### 04 / PinansyalPH — Financial literacy tools for Filipinos
 
 **Worth it ba sa Pilipinas?** Free, open-source calculators that show the arithmetic behind everyday money decisions, using the same figures the PSA, DOE, Pag-IBIG, BIR, and banks publish.
 
@@ -82,9 +90,11 @@ A live platform that helps Filipino readers discover and list Christian theologi
 
 **Tools:** React 19 · TypeScript · Vite · Tailwind CSS v4 · Vitest · Playwright · GitHub Actions · GitHub Pages
 
-[**Explore PinansyalPH →**](https://jervilangelo.github.io/pinansyalph-v2/) · [Source code and methodology](https://github.com/jervilangelo/pinansyalph-v2)
+[**Explore PinansyalPH →**](https://pinansyalph.site/) · [Source code and methodology](https://github.com/jervilangelo/pinansyalph-v2)
 
-## AWS services I've used
+---
+
+## AWS experience
 
 | Area | Services | Where I applied them |
 |---|---|---|
@@ -99,7 +109,9 @@ A live platform that helps Filipino readers discover and list Christian theologi
 
 Amplify manages several of Teolohiya's underlying AWS resources. The service list reflects their roles in the deployed application.
 
-## More projects
+---
+
+## Additional projects
 
 | Project | What I built |
 |---|---|
@@ -109,6 +121,8 @@ Amplify manages several of Teolohiya's underlying AWS resources. The service lis
 | [Secure EC2 Web Server](https://github.com/jervilangelo/secure-ec2-web-server) | A Linux/Nginx server in a custom VPC with security groups, IAM, and EBS snapshots. |
 | [HRIS Template Tracker Automation](https://github.com/jervilangelo/hris-template-tracker-automation-) | Completion tracking across business units using Power Automate, Excel, and Power BI. |
 | [ECCM Church Website](https://github.com/jervilangelo/eccm-web) · [live](https://ecc-manila.org/) | A responsive nonprofit website with a custom domain, visitor resources, and SEO essentials. |
+
+---
 
 ## Certifications
 
@@ -122,13 +136,18 @@ Amplify manages several of Teolohiya's underlying AWS resources. The service lis
 
 <img src="assets/badges/oci-associate.png" width="125" alt="OCI Foundations Associate" /> <img src="assets/badges/oci-ai.png" width="125" alt="OCI AI Foundations Associate" />
 
-[Explore my certifications and learning journey →](https://jervilangelo.github.io/de-leon-portfolio/certifications)
+[Explore my certifications and learning journey →](https://jervilangelo.online/certifications)
 
 </div>
 
 Additional training includes Cisco networking and cybersecurity, Google IT Support and System Administration, and IT Specialist: Databases.
 
-## Tools I build with
+---
+
+## Technologies & tools
+
+<sub>The stack behind my infrastructure, automation, and web projects.</sub>
+
 
 ![AWS](https://img.shields.io/badge/AWS-303030?style=flat-square&logo=amazonwebservices&logoColor=A9BFA8)
 ![Terraform](https://img.shields.io/badge/Terraform-303030?style=flat-square&logo=terraform&logoColor=A9BFA8)
@@ -144,7 +163,12 @@ Additional training includes Cisco networking and cybersecurity, Google IT Suppo
 ![Playwright](https://img.shields.io/badge/Playwright-303030?style=flat-square&logo=playwright&logoColor=A9BFA8)
 ![Git](https://img.shields.io/badge/Git-303030?style=flat-square&logo=git&logoColor=A9BFA8)
 
+---
+
 ## Building in public
+
+<sub>Experiments, deployments, improvements, and lessons along the way.</sub>
+
 
 [![Jervil Angelo's GitHub contribution activity](https://ghchart.rshah.org/8fa68e/jervilangelo)](https://github.com/jervilangelo?tab=repositories)
 
@@ -156,10 +180,14 @@ Additional training includes Cisco networking and cybersecurity, Google IT Suppo
 
 <div align="center">
 
-**Explore the projects, architecture decisions, and lessons behind the code.**
+### Explore the work behind the code
 
-[![View my portfolio](https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-8FA68E?style=for-the-badge&logo=googlechrome&logoColor=1C1C1C)](https://jervilangelo.github.io/de-leon-portfolio/)
+Architecture decisions, deployments, experiments, and lessons learned.
+
+[![View my portfolio](https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-8FA68E?style=for-the-badge&logo=googlechrome&logoColor=1C1C1C)](https://jervilangelo.online/)
 
 [LinkedIn](https://www.linkedin.com/in/jervilangelo/) · [Email](mailto:deleonangelojervil@gmail.com) · [All repositories](https://github.com/jervilangelo?tab=repositories)
+
+<sub>Thanks for visiting.</sub>
 
 </div>
