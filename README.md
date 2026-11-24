@@ -171,6 +171,23 @@ Additional training includes Cisco networking and cybersecurity, Google IT Suppo
 
 <sub>Experiments, deployments, improvements, and lessons along the way.</sub>
 
+<div align="center">
+
+![Profile views](https://komarev.com/ghpvc/?username=jervilangelo&label=Profile%20Views&color=8fa68e&style=flat-square)
+![GitHub followers](https://img.shields.io/github/followers/jervilangelo?style=flat-square&label=Followers&color=8fa68e)
+![GitHub stars](https://img.shields.io/github/stars/jervilangelo?affiliations=OWNER&style=flat-square&label=Repository%20Stars&color=8fa68e)
+
+<a href="https://github.com/jervilangelo">
+  <img src="https://github-readme-stats.vercel.app/api?username=jervilangelo&show_icons=true&hide_border=true&bg_color=00000000&title_color=8fa68e&icon_color=8fa68e&text_color=888888&include_all_commits=true" alt="Jervil Angelo's GitHub statistics" height="165" />
+</a>
+<a href="https://github.com/jervilangelo?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jervilangelo&layout=compact&hide_border=true&bg_color=00000000&title_color=8fa68e&text_color=888888&langs_count=6" alt="Most-used languages across public repositories" height="165" />
+</a>
+
+<img src="https://streak-stats.demolab.com?user=jervilangelo&hide_border=true&background=00000000&ring=8FA68E&fire=8FA68E&currStreakLabel=8FA68E&sideLabels=888888&dates=888888&sideNums=888888&currStreakNum=888888" alt="GitHub contribution streak" />
+
+</div>
+
 
 [![Jervil Angelo's GitHub contribution activity](https://ghchart.rshah.org/8fa68e/jervilangelo)](https://github.com/jervilangelo?tab=repositories)
 
