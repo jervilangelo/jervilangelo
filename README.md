@@ -4,7 +4,7 @@
 
 ### 2x AWS & OCI Certified | Cloud & Infrastructure Engineering
 
-`HRIS Technical Support` · `AWS Infrastructure` · `Automation` · `Philippines`
+`HRIS Technical Support` · `AWS Infrastructure` · `Automation`
 
 [![View my portfolio](https://img.shields.io/badge/VIEW_MY_PORTFOLIO-8FA68E?style=for-the-badge&logo=googlechrome&logoColor=1C1C1C)](https://jervilangelo.online/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-303030?style=for-the-badge&logo=linkedin&logoColor=F1F1EF)](https://www.linkedin.com/in/jervilangelo/)
